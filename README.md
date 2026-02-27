@@ -13,4 +13,10 @@ p:nth-of-type(2) {
 selects : 2nd <p> specifically
 
 
+3. text-align vs justify-content vs align-items
+text-align : block/inline - horizontal (Text,span,img)
+justify-content : flexbox/grid - default(horizontal) if flex-direction:column(vertical)
+align-items : flexbox/grid - default(vertical) if flex-direction:column(horizontal)
+
+
 
