@@ -1,0 +1,24 @@
+/* p{
+    color: red;
+}
+
+.class1{
+    color: aqua;
+}
+
+#id1{
+    color: yellow;
+} */
+
+
+/* div p selects all descendants, div > p selects only direct child
+div p and div > p has the same specificity,when same specificity last rule wins. */
+
+div p{
+    color: blueviolet;
+}
+
+div > p{
+    color: red;
+}
+

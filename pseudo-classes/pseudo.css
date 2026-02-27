@@ -1,0 +1,25 @@
+button:hover{
+    color: red;
+    background-color: white;
+    border-radius: 10px;
+}
+
+button:active{
+    background-color: blue;
+}
+
+h1:hover{
+    color: yellow;
+}
+
+/* p:first-child{
+    color : green
+}
+
+p:last-child{
+    color: aqua;
+} */
+
+p:nth-child(2){
+    color: yellow;
+}

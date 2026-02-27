@@ -1,0 +1,10 @@
+.cls{
+    border: 2px solid green;
+    padding: 6px;
+    margin: 50px;
+    width: 250px;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: yellow;
+}
+
