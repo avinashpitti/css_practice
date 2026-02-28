@@ -1,0 +1,37 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+    align-items: center;
+    padding: 10px 20px;
+    position: relative;
+}
+
+.menu{
+    display: flex;
+    gap: 15px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.menu span{
+    cursor: pointer;
+}
+
+.menu span:hover{
+    color: red;
+}
+
+.btn{
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 2px 6px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: green;    
+}
