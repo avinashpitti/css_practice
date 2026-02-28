@@ -1,0 +1,38 @@
+/* Descendant selector (space) */
+/* div p{
+    color: yellowgreen; 
+} */
+/* It selects all the p tags(all the descendants-even grand child)  */
+
+
+/* Direct child(>) */
+/* .container > p{
+    color: red;
+} */
+/* It selects only direct child */
+
+
+/* adjacent selector(+) */
+/* h1+p{
+    color: aqua;
+} */
+
+/* It selects adjacent selector (p) immediately after h1 tag  */
+
+/* p+h1{
+    color: blueviolet;
+} */
+
+/* It selects adjacent selector(h1) immediately after p tag  */
+
+
+/* General sibling(~) */
+/* h1~p{
+    color: goldenrod;
+} */
+/* It selects all p after h1 (same level) */
+
+p~h1{
+    color: aquamarine;
+}
+/* It selects all h1 after p (same level) */
