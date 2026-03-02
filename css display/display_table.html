@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display_table</title>
+    <style>
+        .table{
+            display: table;
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .table-row{
+            display: table-row;
+        }
+
+        .table-cell{
+            display: table-cell;
+            border: 1px solid orange;
+            padding: 5px;
+            text-align: center;
+        }
+
+        .table-header{
+            display: table-header-group;
+            font-weight: bold;
+            background: #333;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="table">
+        <div class="table-header">
+            <div class="table-row">
+                <div class="table-cell">Name</div>
+                <div class="table-cell">Age</div>
+            </div>
+
+            <div class="table-row">
+                <div class="table-cell">mahesh</div>
+                <div class="table-cell">49</div>
+            </div>
+
+            <div class="table-row">
+                <div class="table-cell">prabhas</div>
+                <div class="table-cell">42</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

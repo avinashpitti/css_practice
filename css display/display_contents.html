@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display:contents</title>
+    <style>
+        .wrapper{
+            display: contents;
+            /* wrapper div vanishes, children act as flex items */
+        }
+
+        .parent{
+            display: flex;
+            gap: 10px;
+            background: #eee;
+            padding: 10px;
+        }
+        
+        .child{
+            background: crimson;
+            color: white;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="wrapper">
+            <div class="child">A</div>
+            <div class="child">B</div>
+        </div>
+        <div class="child">C</div>
+    </div>
+</body>
+</html>
