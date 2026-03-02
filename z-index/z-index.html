@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>z-index</title>
+    <style>
+        .box{
+            width: 140px;
+            height: 120px;
+            position: absolute;
+            /* z-index needs position (except static) */
+        }
+
+        .red{
+            background: red;
+            top: 0;
+            left: 0;
+            z-index: 1;
+            /* behind */
+        }
+        .blue{
+            background: blue;
+            top: 40px;
+            left: 40px;
+            z-index: 2;
+            /* infront of red */
+        }
+
+        .green{
+            background: green;
+            top: 80px;
+            left: 80px;
+            z-index: 3;
+            /* infront of all */
+            /* whichever has the highest z-index, is displayed on top */
+        }
+        .parent{
+            position: relative;
+            background: lightyellow;
+            padding: 30px;
+        }
+
+        .behind{
+            position: absolute;
+            background: red;
+            width: 200px;
+            height: 200px;
+            top: 10px;
+            left: 10px;
+            z-index: -1; /*goes behind parent */
+        }
+    </style>
+</head>
+<body>
+    <div class="box red"></div>
+    <div class="box blue"></div>
+    <div class="box green"></div>
+
+    <!-- <div class="parent">
+        I am the parent
+        <div class="behind">
+            I am behind
+        </div>
+    </div> -->
+</body>
+</html>
